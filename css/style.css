@@ -34,7 +34,7 @@ body{
 }
 
 .two p{
-    color: white;
+    color: red;
     overflow-x: scroll;
     font-size: 48px;
     width: 90%;
