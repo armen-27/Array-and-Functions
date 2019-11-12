@@ -34,6 +34,7 @@ body{
 }
 
 .two p{
+    size: auto;
     color: white;
     overflow-x: scroll;
     font-size: 48px;
