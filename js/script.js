@@ -51,3 +51,24 @@ function getMinNumber() {
     }
 
 }
+function getEvenNumbersQuantity() {
+    var even=0;
+    for (i=1; i<=screen.value;i++){
+        if (i%2==0){
+            even=even+1
+            numbers.innerHTML=even;
+        }
+
+    }
+}
+
+function getOddNumbersQuantity() {
+    var even=0;
+    for (i=1; i<=screen.value;i++){
+        if (i%2==1){
+            even=even+1
+            numbers.innerHTML=even;
+        }
+
+    }
+}
